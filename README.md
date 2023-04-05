@@ -28,9 +28,13 @@ Finally, with this comes three other important files.
 	3) A text file to start (2) -> "Scarlet_SweepTestIntegrator"
 
 1) This must be changed for your computer, an example is given but essentially you must edit the text file slightly for it to work.
- 	a) In the first line, after 'call' is the location of your anaconda3 'activate.bat' script file. This will most likely be found in C: -> Users -> YourAccountName -> anaconda3 -> Scripts -> activate.bat. After this you should then make sure the directory for your anaconda3 environment is stated, again C: -> Users -> YourAccountName -> anaconda3
+ 	
+	a) In the first line, after 'call' is the location of your anaconda3 'activate.bat' script file. This will most likely be found in C: -> Users -> YourAccountName -> anaconda3 -> Scripts -> activate.bat. After this you should then make sure the directory for your anaconda3 environment is stated, again C: -> Users -> YourAccountName -> anaconda3
+	
 	b) In the second line, after 'cd' you need the directory of the openQCM Q-1 application, this will be wherever you saved the software. So find where you saved the software and navigate to the folder "OPENQCM". You can then change the example directory to this directory.
+	
 	c) Leave this line unchanged
+	
 	d) "pause" just prevents the CMD Prompt from closing down in the event of a failure, allowing for easier troubleshooting. You can remove this line if the software opens without fail.
 
 Now you must convert this text file (.txt) to a batch file (.bat). This is done by "Save as" and then adding ".bat" to the end (without quotation marks). It is difficult to edit this code once you have converted it so making a copy of the text file is recommended.
@@ -38,9 +42,13 @@ Now you must convert this text file (.txt) to a batch file (.bat). This is done 
 2) This should be left in its folder but upon loading it will ask for the directory of the sweep data, just copy and paste the directory when prompted.
 
 3) This is very similar to (1) and must be changed for your computer, an example is given but essentially you must also edit this text file.
- 	a) Same as in (1a). In the first line, after 'call' is the location of your anaconda3 'activate.bat' script file. This will most likely be found in C: -> Users -> YourAccountName -> anaconda3 -> Scripts -> activate.bat. After this you should then make sure the directory for your anaconda3 environment is stated, again C: -> Users -> YourAccountName -> anaconda3
+ 	
+	a) Same as in (1a). In the first line, after 'call' is the location of your anaconda3 'activate.bat' script file. This will most likely be found in C: -> Users -> YourAccountName -> anaconda3 -> Scripts -> activate.bat. After this you should then make sure the directory for your anaconda3 environment is stated, again C: -> Users -> YourAccountName -> anaconda3
+	
 	b) Similar to (1b). In the second line, after 'cd', you need the directory of the Scarlet_SweepTestIntegrator application. Therefore, you must find wherever you saved the software and navigate through the following folders "openQCM_Q-1_py_v2.1_Scarlet" -> "OPENQCM" -> "logged_data". You can then change the example directory to this directory.
+	
 	c) Same as in (1c), leave this line unchanged
+	
 	d) Same as in (1d), "pause" just prevents the CMD Prompt from closing down in the event of a failure, allowing for easier troubleshooting. You can remove this line if the software completed integration without fail.
 
 Likewise with (1) Now you must convert this text file (.txt) to a batch file (.bat). This is done by "Save as" and then adding ".bat" to the end (without quotation marks). It is difficult to edit this code once you have converted it so making a copy of the text file is recommended. 
