@@ -10,12 +10,14 @@ As provided the PeakFrequencies.txt file is 2 identical columns (space delimited
 To measure a 5 MHz crystal the user must go into the PeakFrequencies.txt file and delete the two rows for 6 MHz and 10 MHz frequencies (make sure there is only one row and two columns of ~5.000000000000000000e+06. Restarting the software and clicking "Start" should now update the "info" window to "@5MHz" and "fundamental".
 
 To measure a 10 MHz crystal the user must go into the PeakFrequencies.txt file and add enough rows so that there are 5 rows and two columns. Just add placeholder numbers to make up these rows, ensure the columns are still identical (see below for example). It is better to make the first number the fundamental frequency of the crystal you wish to measure (e.g. 1.000000000000000000e+07). Restarting the software and clicking "Start" should now update the "info" window to "@10MHz" and "fundamental".
-              Example
+              
+			Example
               1.000000000000000000e+07 1.000000000000000000e+07
               3.000000000000000000e+06 3.000000000000000000e+06
               5.000000000000000000e+06 5.000000000000000000e+06
               6.000000000000000000e+06 6.000000000000000000e+06
               8.000000000000000000e+06 8.000000000000000000e+06
+							
 
 MOST IMPORTANTLY -> Before running anymeasurements, it is important to do a calibration first, once this has completed inspect the survey produced in the top right-hand graph, find the exact frequency of the peak and then adjust the the respective rows of PeakFrequencies.txt file to reflect this and make the subsequent measurements more accurate. This ensures the measurement window captures the best portions of the peak (more of the lower frequency side captured than the upper frequency side to account for frequency decreases during mass loading). For example, if the peak frequency is measured at 5.985 MHz then alter the 6.000000000000000000e+06 6.000000000000000000e+06 row to 5.985000000000000000e+06 5.985000000000000000e+06.
 
